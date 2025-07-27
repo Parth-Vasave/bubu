@@ -2,9 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background: linear-gradient(135deg, #ffeef8 0%, #e8f4fd 50%, #f0e6ff 100%);
-  font-family: 'Quicksand', sans-serif;
-  margin: 0;
-  padding: 0;
+@layer base {
+  body {
+    background: linear-gradient(135deg, #ffeef8 0%, #e8f4fd 50%, #f0e6ff 100%);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer utilities {
+  .text-pink-cute {
+    color: #ff69b4;
+  }
+  .text-pink-deep {
+    color: #ff1493;
+  }
+  .text-purple-cute {
+    color: #d63384;
+  }
+  .text-purple-light {
+    color: #6f42c1;
+  }
+  .bg-pink-cute {
+    background-color: #ff69b4;
+  }
+  .bg-pink-deep {
+    background-color: #ff1493;
+  }
+  .border-pink-cute {
+    border-color: #ff69b4;
+  }
+  .shadow-pink-cute\/40 {
+    box-shadow: 0 10px 15px -3px rgba(255, 105, 180, 0.4), 0 4px 6px -2px rgba(255, 105, 180, 0.4);
+  }
+  .from-pink-cute {
+    --tw-gradient-from: #ff69b4;
+  }
+  .to-pink-deep {
+    --tw-gradient-to: #ff1493;
+  }
 }
