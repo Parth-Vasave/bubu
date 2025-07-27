@@ -1,4 +1,4 @@
-# 💖 Sweetie's Grievance Portal 💖
+# 💖 Bubu's Grievance Portal 💖
 
 A super cute and playful React application where your girlfriend can submit her complaints when she's upset with you! Built with love, React, and Tailwind CSS.
 
